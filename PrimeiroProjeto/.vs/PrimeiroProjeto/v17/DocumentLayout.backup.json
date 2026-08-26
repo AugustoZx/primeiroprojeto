@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DB\\source\\repos\\PrimeiroProjeto\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8C719577-5109-430D-A6AD-883E2E64EC98}|PrimeiroProjeto\\PrimeiroProjeto.csproj|c:\\users\\db\\source\\repos\\primeiroprojeto\\primeiroprojeto\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C719577-5109-430D-A6AD-883E2E64EC98}|PrimeiroProjeto\\PrimeiroProjeto.csproj|solutionrelative:primeiroprojeto\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C719577-5109-430D-A6AD-883E2E64EC98}|PrimeiroProjeto\\PrimeiroProjeto.csproj|c:\\users\\db\\source\\repos\\primeiroprojeto\\primeiroprojeto\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8C719577-5109-430D-A6AD-883E2E64EC98}|PrimeiroProjeto\\PrimeiroProjeto.csproj|solutionrelative:primeiroprojeto\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\DB\\source\\repos\\PrimeiroProjeto\\PrimeiroProjeto\\Form1.cs",
+              "RelativeDocumentMoniker": "PrimeiroProjeto\\Form1.cs",
+              "ToolTip": "C:\\Users\\DB\\source\\repos\\PrimeiroProjeto\\PrimeiroProjeto\\Form1.cs [Design]",
+              "RelativeToolTip": "PrimeiroProjeto\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T22:42:56.793Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\DB\\source\\repos\\PrimeiroProjeto\\PrimeiroProjeto\\Form1.cs",
+              "RelativeDocumentMoniker": "PrimeiroProjeto\\Form1.cs",
+              "ToolTip": "C:\\Users\\DB\\source\\repos\\PrimeiroProjeto\\PrimeiroProjeto\\Form1.cs",
+              "RelativeToolTip": "PrimeiroProjeto\\Form1.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T23:17:15.654Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
