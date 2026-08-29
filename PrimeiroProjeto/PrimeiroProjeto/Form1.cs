@@ -34,7 +34,7 @@ namespace PrimeiroProjeto
             pnlEntrar.Left = (this.ClientSize.Width - pnlEntrar.Width) / 2;
             pnlEntrar.Top = (this.ClientSize.Height - pnlEntrar.Height) / 2;
 
-            
+
         }
     }
 }
