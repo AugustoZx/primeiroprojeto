@@ -15,7 +15,8 @@ namespace PrimeiroProjeto
         public Form1()
         {
             InitializeComponent();
-            CentralizarPainel();
+
+            this.Resize += (s, e) => CentralizarPainel();
         }
 
         private void lblEmail_Click(object sender, EventArgs e)
@@ -33,7 +34,7 @@ namespace PrimeiroProjeto
             pnlEntrar.Left = (this.ClientSize.Width - pnlEntrar.Width) / 2;
             pnlEntrar.Top = (this.ClientSize.Height - pnlEntrar.Height) / 2;
 
-            this.Resize += (s, e) => CentralizarPainel();
+            
         }
     }
 }
