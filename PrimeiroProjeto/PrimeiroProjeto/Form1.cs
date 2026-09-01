@@ -42,8 +42,6 @@ namespace PrimeiroProjeto
         {
             string email = txtEmail.Text.Trim();
             string senha = txtSenha.Text;
-
-            
         }
     }
 }
