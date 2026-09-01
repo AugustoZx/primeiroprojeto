@@ -34,7 +34,6 @@
             this.txtSenha = new System.Windows.Forms.TextBox();
             this.btnEntrar = new System.Windows.Forms.Button();
             this.pnlEntrar = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
             this.pnlEntrar.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -88,7 +87,6 @@
             // 
             // pnlEntrar
             // 
-            this.pnlEntrar.Controls.Add(this.label1);
             this.pnlEntrar.Controls.Add(this.lblEmail);
             this.pnlEntrar.Controls.Add(this.btnEntrar);
             this.pnlEntrar.Controls.Add(this.txtEmail);
@@ -100,15 +98,6 @@
             this.pnlEntrar.Size = new System.Drawing.Size(427, 393);
             this.pnlEntrar.TabIndex = 5;
             this.pnlEntrar.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlEntrar_Paint);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(192, 351);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(44, 16);
-            this.label1.TabIndex = 5;
-            this.label1.Text = "label1";
             // 
             // Form1
             // 
@@ -134,7 +123,6 @@
         private System.Windows.Forms.TextBox txtSenha;
         private System.Windows.Forms.Button btnEntrar;
         private System.Windows.Forms.Panel pnlEntrar;
-        private System.Windows.Forms.Label label1;
     }
 }
 

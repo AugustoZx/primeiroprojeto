@@ -19,3 +19,14 @@ C:\Users\augus\Desktop\primeiroprojeto\PrimeiroProjeto\PrimeiroProjeto\obj\Debug
 C:\Users\augus\Desktop\primeiroprojeto\PrimeiroProjeto\PrimeiroProjeto\obj\Debug\PrimeiroProjeto.csproj.CoreCompileInputs.cache
 C:\Users\augus\Desktop\primeiroprojeto\PrimeiroProjeto\PrimeiroProjeto\obj\Debug\PrimeiroProjeto.exe
 C:\Users\augus\Desktop\primeiroprojeto\PrimeiroProjeto\PrimeiroProjeto\obj\Debug\PrimeiroProjeto.pdb
+C:\Users\DB\Desktop\primeiroprojeto\PrimeiroProjeto\PrimeiroProjeto\bin\Debug\PrimeiroProjeto.exe.config
+C:\Users\DB\Desktop\primeiroprojeto\PrimeiroProjeto\PrimeiroProjeto\bin\Debug\PrimeiroProjeto.exe
+C:\Users\DB\Desktop\primeiroprojeto\PrimeiroProjeto\PrimeiroProjeto\bin\Debug\PrimeiroProjeto.pdb
+C:\Users\DB\Desktop\primeiroprojeto\PrimeiroProjeto\PrimeiroProjeto\obj\Debug\PrimeiroProjeto.csproj.AssemblyReference.cache
+C:\Users\DB\Desktop\primeiroprojeto\PrimeiroProjeto\PrimeiroProjeto\obj\Debug\PrimeiroProjeto.exe.config
+C:\Users\DB\Desktop\primeiroprojeto\PrimeiroProjeto\PrimeiroProjeto\obj\Debug\PrimeiroProjeto.Form1.resources
+C:\Users\DB\Desktop\primeiroprojeto\PrimeiroProjeto\PrimeiroProjeto\obj\Debug\PrimeiroProjeto.Properties.Resources.resources
+C:\Users\DB\Desktop\primeiroprojeto\PrimeiroProjeto\PrimeiroProjeto\obj\Debug\PrimeiroProjeto.csproj.GenerateResource.cache
+C:\Users\DB\Desktop\primeiroprojeto\PrimeiroProjeto\PrimeiroProjeto\obj\Debug\PrimeiroProjeto.csproj.CoreCompileInputs.cache
+C:\Users\DB\Desktop\primeiroprojeto\PrimeiroProjeto\PrimeiroProjeto\obj\Debug\PrimeiroProjeto.exe
+C:\Users\DB\Desktop\primeiroprojeto\PrimeiroProjeto\PrimeiroProjeto\obj\Debug\PrimeiroProjeto.pdb
