@@ -12,6 +12,9 @@ namespace PrimeiroProjeto
 {
     public partial class Form1 : Form
     {
+        private const string EmailCadastrado = "augusto@teste.com";
+        private const string SenhaCadastrada = "1234";
+
         public Form1()
         {
             InitializeComponent();
@@ -33,6 +36,14 @@ namespace PrimeiroProjeto
         {
             pnlEntrar.Left = (this.ClientSize.Width - pnlEntrar.Width) / 2;
             pnlEntrar.Top = (this.ClientSize.Height - pnlEntrar.Height) / 2;
+        }
+
+        private void btnEntrar_Click(object sender, EventArgs e)
+        {
+            string email = txtEmail.Text.Trim();
+            string senha = txtSenha.Text;
+
+            
         }
     }
 }
