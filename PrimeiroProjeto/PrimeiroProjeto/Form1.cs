@@ -42,6 +42,36 @@ namespace PrimeiroProjeto
         {
             string email = txtEmail.Text.Trim();
             string senha = txtSenha.Text;
+
+            if (email == "" || senha == "")
+            {
+                MessageBox.Show(
+                    "Preencha o email e a senha.",
+                    "Atencao",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Warning);
+                return;
+            }
+
+            if (email.ToLower() == EmailCadastrado
+        && senha == SenhaCadastrada)
+            {
+                MessageBox.Show(
+                    "Login realizado com sucesso!",
+                    "Bem-vindo", MessageBoxButtons.OK,
+                    MessageBoxIcon.Information);
+            }
+            else
+            {
+                MessageBox.Show(
+                    "Email ou senha incorretos.",
+                    "Erro", MessageBoxButtons.OK,
+                    MessageBoxIcon.Error);
+                txtSenha.Clear();
+                txtSenha.Focus();
+            }
+
+
         }
     }
 }
