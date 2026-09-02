@@ -59,7 +59,8 @@ namespace PrimeiroProjeto
                 MessageBox.Show(
                     "Login realizado com sucesso!",
                     "Bem-vindo", MessageBoxButtons.OK,
-                    MessageBoxIcon.Information);
+                    MessageBoxIcon.Information
+                    );
             }
             else
             {
