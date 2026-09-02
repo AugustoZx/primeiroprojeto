@@ -74,5 +74,14 @@ namespace PrimeiroProjeto
 
 
         }
+
+        private void lnkCadastrar_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            frmCadastro cadastro = new frmCadastro();
+
+            this.Hide();
+            cadastro.ShowDialog();
+            this.Show();
+        }
     }
 }
