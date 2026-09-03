@@ -31,3 +31,4 @@ C:\Users\DB\Desktop\primeiroprojeto\PrimeiroProjeto\PrimeiroProjeto\obj\Debug\Pr
 C:\Users\DB\Desktop\primeiroprojeto\PrimeiroProjeto\PrimeiroProjeto\obj\Debug\PrimeiroProjeto.exe
 C:\Users\DB\Desktop\primeiroprojeto\PrimeiroProjeto\PrimeiroProjeto\obj\Debug\PrimeiroProjeto.pdb
 C:\Users\DB\Desktop\primeiroprojeto\PrimeiroProjeto\PrimeiroProjeto\obj\Debug\PrimeiroProjeto.frmCadastro.resources
+C:\Users\augus\Desktop\primeiroprojeto\PrimeiroProjeto\PrimeiroProjeto\obj\Debug\PrimeiroProjeto.frmCadastro.resources

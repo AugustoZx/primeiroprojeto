@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\augus\\Desktop\\primeiroprojeto\\PrimeiroProjeto\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8C719577-5109-430D-A6AD-883E2E64EC98}|PrimeiroProjeto\\PrimeiroProjeto.csproj|c:\\users\\augus\\desktop\\primeiroprojeto\\primeiroprojeto\\primeiroprojeto\\frmcadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8C719577-5109-430D-A6AD-883E2E64EC98}|PrimeiroProjeto\\PrimeiroProjeto.csproj|solutionrelative:primeiroprojeto\\frmcadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8C719577-5109-430D-A6AD-883E2E64EC98}|PrimeiroProjeto\\PrimeiroProjeto.csproj|c:\\users\\augus\\desktop\\primeiroprojeto\\primeiroprojeto\\primeiroprojeto\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{8C719577-5109-430D-A6AD-883E2E64EC98}|PrimeiroProjeto\\PrimeiroProjeto.csproj|solutionrelative:primeiroprojeto\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
@@ -27,6 +31,18 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "frmCadastro.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\augus\\Desktop\\primeiroprojeto\\PrimeiroProjeto\\PrimeiroProjeto\\frmCadastro.cs",
+              "RelativeDocumentMoniker": "PrimeiroProjeto\\frmCadastro.cs",
+              "ToolTip": "C:\\Users\\augus\\Desktop\\primeiroprojeto\\PrimeiroProjeto\\PrimeiroProjeto\\frmCadastro.cs [Design]",
+              "RelativeToolTip": "PrimeiroProjeto\\frmCadastro.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-03T04:25:06.926Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\augus\\Desktop\\primeiroprojeto\\PrimeiroProjeto\\PrimeiroProjeto\\Form1.cs",
               "RelativeDocumentMoniker": "PrimeiroProjeto\\Form1.cs",
@@ -38,7 +54,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\augus\\Desktop\\primeiroprojeto\\PrimeiroProjeto\\PrimeiroProjeto\\Form1.cs",
               "RelativeDocumentMoniker": "PrimeiroProjeto\\Form1.cs",
@@ -46,8 +62,7 @@
               "RelativeToolTip": "PrimeiroProjeto\\Form1.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAkwB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-29T02:12:06.237Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-29T02:12:06.237Z"
             }
           ]
         }
