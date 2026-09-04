@@ -12,8 +12,9 @@ namespace PrimeiroProjeto
 {
     public partial class Form1 : Form
     {
-        private const string EmailCadastrado = "augusto@teste.com";
-        private const string SenhaCadastrada = "1234";
+        public static string NomeCadastrado = "";
+        public static string EmailCadastrado = "";
+        public static string SenhaCadastrada = "";
 
         public Form1()
         {
