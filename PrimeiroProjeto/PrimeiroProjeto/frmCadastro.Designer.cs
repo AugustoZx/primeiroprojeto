@@ -32,10 +32,10 @@
             this.lblEmail = new System.Windows.Forms.Label();
             this.lblSenha = new System.Windows.Forms.Label();
             this.pnlCadastro = new System.Windows.Forms.Panel();
-            this.txtNome = new System.Windows.Forms.TextBox();
-            this.txtEmail = new System.Windows.Forms.TextBox();
-            this.txtSenha = new System.Windows.Forms.TextBox();
             this.btnCadastrar = new System.Windows.Forms.Button();
+            this.txtSenha = new System.Windows.Forms.TextBox();
+            this.txtEmail = new System.Windows.Forms.TextBox();
+            this.txtNome = new System.Windows.Forms.TextBox();
             this.pnlCadastro.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -80,27 +80,6 @@
             this.pnlCadastro.Size = new System.Drawing.Size(439, 426);
             this.pnlCadastro.TabIndex = 3;
             // 
-            // txtNome
-            // 
-            this.txtNome.Location = new System.Drawing.Point(86, 75);
-            this.txtNome.Name = "txtNome";
-            this.txtNome.Size = new System.Drawing.Size(309, 22);
-            this.txtNome.TabIndex = 3;
-            // 
-            // txtEmail
-            // 
-            this.txtEmail.Location = new System.Drawing.Point(86, 125);
-            this.txtEmail.Name = "txtEmail";
-            this.txtEmail.Size = new System.Drawing.Size(309, 22);
-            this.txtEmail.TabIndex = 4;
-            // 
-            // txtSenha
-            // 
-            this.txtSenha.Location = new System.Drawing.Point(86, 175);
-            this.txtSenha.Name = "txtSenha";
-            this.txtSenha.Size = new System.Drawing.Size(309, 22);
-            this.txtSenha.TabIndex = 5;
-            // 
             // btnCadastrar
             // 
             this.btnCadastrar.Location = new System.Drawing.Point(166, 262);
@@ -109,6 +88,28 @@
             this.btnCadastrar.TabIndex = 6;
             this.btnCadastrar.Text = "Cadastrar";
             this.btnCadastrar.UseVisualStyleBackColor = true;
+            this.btnCadastrar.Click += new System.EventHandler(this.btnCadastrar_Click);
+            // 
+            // txtSenha
+            // 
+            this.txtSenha.Location = new System.Drawing.Point(86, 175);
+            this.txtSenha.Name = "txtSenha";
+            this.txtSenha.Size = new System.Drawing.Size(309, 22);
+            this.txtSenha.TabIndex = 5;
+            // 
+            // txtEmail
+            // 
+            this.txtEmail.Location = new System.Drawing.Point(86, 125);
+            this.txtEmail.Name = "txtEmail";
+            this.txtEmail.Size = new System.Drawing.Size(309, 22);
+            this.txtEmail.TabIndex = 4;
+            // 
+            // txtNome
+            // 
+            this.txtNome.Location = new System.Drawing.Point(86, 75);
+            this.txtNome.Name = "txtNome";
+            this.txtNome.Size = new System.Drawing.Size(309, 22);
+            this.txtNome.TabIndex = 3;
             // 
             // frmCadastro
             // 
