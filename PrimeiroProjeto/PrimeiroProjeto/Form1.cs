@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -54,28 +55,42 @@ namespace PrimeiroProjeto
                 return;
             }
 
-            if (email.ToLower() == EmailCadastrado
-        && senha == SenhaCadastrada)
+            using (MySqlConnection conexao =
+        Conexao.Abrir())
             {
-                frmPrincipal principal = new frmPrincipal();
+                string sql =
+                    "SELECT nome FROM usuarios " +
+                    "WHERE email = @email " +
+                    "AND senha = @senha";
+                MySqlCommand comando =
+                    new MySqlCommand(
+                        sql, conexao);
+                comando.Parameters.AddWithValue(
+                    "@email", email);
+                comando.Parameters.AddWithValue(
+                    "@senha", senha);
 
-                principal.DefinirBoasVindas(NomeCadastrado);
-
-                principal.Show();
-                this.Hide();
+                object resultado =
+                    comando.ExecuteScalar();
+                if (resultado != null)
+                {
+                    frmPrincipal principal =
+                        new frmPrincipal();
+                    principal.DefinirBoasVindas(
+                        resultado.ToString());
+                    principal.Show();
+                    this.Hide();
+                }
+                else
+                {
+                    MessageBox.Show(
+                        "Email ou senha incorretos.",
+                        "Erro", MessageBoxButtons.OK,
+                        MessageBoxIcon.Error);
+                    txtSenha.Clear();
+                    txtSenha.Focus();
+                }
             }
-
-            else
-            {
-                MessageBox.Show(
-                    "Email ou senha incorretos.",
-                    "Erro", MessageBoxButtons.OK,
-                    MessageBoxIcon.Error);
-                txtSenha.Clear();
-                txtSenha.Focus();
-            }
-
-
         }
 
         private void lnkCadastrar_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)

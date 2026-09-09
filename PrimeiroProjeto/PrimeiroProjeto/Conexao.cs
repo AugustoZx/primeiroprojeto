@@ -1,0 +1,24 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using MySql.Data.MySqlClient;
+
+namespace PrimeiroProjeto
+{
+    public static class Conexao
+    {
+        public static string StringConexao =
+            "server=localhost;" + 
+            "database=primeiroprojeto;" +
+            "uid=root;pwd=;";
+
+        public static MySqlConnection Abrir()
+        {
+            MySqlConnection conexao = new MySqlConnection(StringConexao);
+            conexao.Open();
+            return conexao;
+        }
+    }
+}
